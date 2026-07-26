@@ -1,0 +1,18 @@
+# Real secrets -- never commit. Copy .env.production.example instead.
+.env.production
+.env.production.local
+
+# Local database/instance backups (may contain message content, tokens)
+/backups/*
+!/backups/.gitkeep
+
+# OS/editor
+.DS_Store
+*.DS_Store
+.vscode/*
+!.vscode/settings.json
+.idea/*
+
+# Scratch
+*.log
+/tmp/
